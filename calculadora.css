@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: url(./img/Hexagon-2.svg) no-repeat;
+  background-size: cover;
+}
+  
+
+#calculadora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% 30% 0 30%;
+  background: rgba(217, 217, 217, 0.21);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 78px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: gainsboro;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Righteous, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: gainsboro;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+input {
+  width: 5em;
+  background-color: rgb(232, 231, 231);
+  }
+
+#operacao {
+  width: 8em;
+  background-color: rgb(232, 231, 231);
+}
+
+button {
+  width: 5em;
+  height: 2em;
+  background-color: midnightblue;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color:aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 15%;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: midnightblue;
+}
+
+.resposta {
+  font-family: Righteous, sans-serif;
+  font-size: 2em;
+}
+
+#resposta {
+  font-family: Roboto, sans-serif;
+  font-size: 2em;
+  line-height: 60px;
+
+}
+
+.problema {
+  background: red;
+  color: cornsilk;
+  padding: 5px;
+  margin: 5px;
+}
