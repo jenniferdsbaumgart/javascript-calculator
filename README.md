@@ -1,10 +1,10 @@
 
-# JavaScript Calculator 2
+# JavaScript Calculator
 
 This is a basic calculator project developed as part of the Fundamentos de Desenvolvimento de Software course in the Análise e Desenvolvimento de Sistemas program. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division using HTML, CSS, and JavaScript.
 ## Project Overview
 
-The Calculador 2 project provides a simple user interface for performing basic arithmetic calculations. Users can input two numbers, select an operation (add, subtract, multiply, or divide), and get the result dynamically.
+The Calculador project provides a simple user interface for performing basic arithmetic calculations. Users can input two numbers, select an operation (add, subtract, multiply, or divide), and get the result dynamically.
 
 ## Features
 
